@@ -1,0 +1,143 @@
+div#mainContainer.mainContainer {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 900px) {
+    div#mainContainer.mainContainer {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+    div#mainContainer.mainContainer {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 685px) and (max-width: 800px) {
+    div#mainContainer.mainContainer {
+        width: 100%;
+    }
+}
+
+table,
+td,
+th {
+    border-collapse: collapse;
+    border: 1px solid #D3D3D3;
+    text-align: left;
+    padding: 5px 5px 5px 5px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    border-style: none;
+    text-align: left;
+    word-wrap: break-word;
+    max-width: 120px;
+    text-overflow: ellipsis;
+}
+
+th {
+    background-color: #EBEBEB;
+}
+
+tr:nth-child(even) {
+    background-color: #EBEBEB;
+}
+
+tr:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+
+.addButton {
+    background: #4288e8;
+    color: white;
+    border: 1px solid #dae1e4;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 5px;
+    flex: .3;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+input[type="text"] {
+    background-color: white;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-size : 12px;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    &:focus {
+        outline: 0;
+        border: 1px solid $color-2;
+    }
+}
+label {
+    padding: 10px;
+}
+.wbkitFlex {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.displaywidth1 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    /* IE 10 */
+    flex: 1;
+}
+
+.displaywidth2 {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    /* IE 10 */
+    flex: 2;
+}
+
+.displaywidth4 {
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    /* IE 10 */
+    flex: 4
+}
+
+.calculationContainer .wbkitFlex {
+    height: 40px;
+    padding-top: 20px;
+}
+
+.calculationContainer {
+    padding-bottom: 10px;
+}
+
+.headerText {
+    padding-right: 20px;
+}
+
+span.price,
+span.originalPrice {
+    font-size: 14px;
+    color: #333;
+}
+
+.noDataClass {
+    border-radius: 5px;
+    color: #666;
+    min-width: 85px;
+    font-size: 19px;
+    text-align: center;
+    background-color: #fafafa;
+    line-height: 300px;
+    border: 1px solid #ccc;
+}
+
+img.deleteIcon {
+    height: 20;
+}

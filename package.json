@@ -1,0 +1,24 @@
+{
+  "name": "BillingSystem",
+  "version": "1.0.0",
+  "description": "BillingSystem",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "author": "Shivam Chaurasia",
+  "license": "1.0.0",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "underscore": "^1.8.3",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-react": "^6.3.13",
+    "webpack": "^1.12.12"
+  }
+}
